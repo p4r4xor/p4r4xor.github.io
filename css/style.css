@@ -8,15 +8,19 @@
 }
 
 body {
-  background-color: var(--black);
-  background: linear-gradient(90deg, var(--black) 20px, transparent 1%) 50%, linear-gradient(var(--black) 20px, transparent 1%) 50%, #222;
-  background-size: 22px 22px;
-  background-attachment: fixed;
+
+  background-image: url("../img/women.jpg");
+  background-repeat: repeat-y;
   color: #fff;
   font-family: 'Barlow Semi Condensed', sans-serif;
   overflow-x: hidden;
 }
-
+/*
+background-color: var(--black);
+  background: linear-gradient(90deg, var(--black) 20px, transparent 1%) 50%, linear-gradient(var(--black) 20px, transparent 1%) 50%, #222;
+  background-size: 22px 22px;
+  background-attachment: fixed;
+*/
 .hero__title {
   letter-spacing: -0.0125em;
   font-weight: 900;
@@ -65,11 +69,12 @@ body {
 .ring {
   border: 30px solid white;
   border-radius: 50%;
-  background-color: transparent;
-  mix-blend-mode: difference;
   position: absolute;
 }
-
+/*
+  background-color: transparent;
+  mix-blend-mode: difference;
+  */
 .ring--left {
   border-width: 50px;
   border-color: var(--yellow);
@@ -94,8 +99,10 @@ body {
   left: 10%;
   bottom: 15%;
   position: absolute;
-  mix-blend-mode: difference;
 }
+/*
+mix-blend-mode: difference;
+*/
 
 @media screen and (max-width: 900px) {
   .cross-1 {
@@ -109,8 +116,11 @@ body {
   right: 200px;
   top: 200px;
   position: absolute;
-  mix-blend-mode: difference;
+  
 }
+/*
+mix-blend-mode: difference;
+*/
 
 .section {
   height: 100vh;
@@ -220,8 +230,10 @@ body {
 
 .section--footer {
   min-height: 135vh;
-  mix-blend-mode: difference;
 }
+/*
+  mix-blend-mode: difference;
+  */
 
 .cross-3 {
   width: 140px;
@@ -229,8 +241,10 @@ body {
   position: absolute;
   left: 20vw;
   top: 10vw;
-  mix-blend-mode: difference;
 }
+/*
+  mix-blend-mode: difference;
+  */
 
 .footer__button {
   text-transform: uppercase;
@@ -265,8 +279,10 @@ body {
   margin-bottom: 2rem;
   margin: 0 auto;
   text-align: center;
-  mix-blend-mode: difference;
 }
+/*
+  mix-blend-mode: difference;
+  */
 
 .footer__link {
   mix-blend-mode: difference;
