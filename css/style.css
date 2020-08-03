@@ -4,6 +4,7 @@
   --yellow: #fbdc74;
   --skyblue: #0071fb;
   --black: #1a1a1a;
+  --red: #ff0000;
 }
 
 body {
@@ -243,17 +244,17 @@ body {
   text-align: center;
   display: inline-block;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 1;
   margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   -webkit-transition: color .25s ease, background-color .25s ease;
   transition: color .25s ease, background-color .25s ease;
 }
 
 .footer__button:hover {
-  background-color: var(--skyblue);
+  background-color: var(--red);
   color: #fff;
 }
 
